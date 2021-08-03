@@ -1,0 +1,16 @@
+.class-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+    .class-holder {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
