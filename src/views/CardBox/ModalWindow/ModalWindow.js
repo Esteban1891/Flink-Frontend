@@ -4,7 +4,7 @@ import axios from "axios";
 import "./style.scss";
 
 
-const baseUrl = `http://143.198.58.196:8000/api/v1/formulary/`;
+const baseUrl = `http://143.198.58.196/api/v1/formulary/`;
 
 function ModalWindow({ setModal, company, setCompany }) {
   const [formCompany, setFormCompany] = useState(company);
