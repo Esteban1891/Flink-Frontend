@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 import ModalWindow from "./ModalWindow/ModalWindow";
 import "./style.scss";
 
-const baseUrl = `http://143.198.58.196:8000/api/v1/formulary/`;
+const baseUrl = `http://143.198.58.196/api/v1/formulary/`;
 
 function CardBox() {
   const [data, setData] = useState([]);
