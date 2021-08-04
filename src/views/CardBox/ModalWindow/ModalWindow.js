@@ -14,14 +14,12 @@ function ModalWindow({ setModal, company, setCompany }) {
       ...formCompany,
       [target.name]: [target.value],
     });
-    //console.log(target, "\n..............");
-    //console.log("ronnie", formCompany, target.value, target.name);
+
   }
 
   function conversion(str) {
     if (typeof(str[0]) === 'string') {
       const newArray = str[0].split(',').map( element => parseInt(element))
-      //console.log("jose",{newArray});
       return newArray;
     }
     return str;
@@ -45,7 +43,7 @@ function ModalWindow({ setModal, company, setCompany }) {
         symbol: formCompany.symbol,
         market_values: conversion(formCompany.market_values)
     }
-    console.log("ronnie", data);
+
     const config = {headers: {'Content-Type' : 'application/json'}}  
     await putFormulary(data);
     setModal(false)

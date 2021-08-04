@@ -2,8 +2,6 @@ import Card from './Card';
 import './style.scss';
 
 function CardHolder({data, setModal, setCompany}) {
-
-    console.log('cardholder', data);
     
     return (
         <div className="class-holder">
