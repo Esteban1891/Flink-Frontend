@@ -1,7 +1,7 @@
 import { default as axios } from "axios";
 
 const http = require('http');
-let baseUrl = "http://143.198.58.196:8000/api/v1";
+let baseUrl = "http://143.198.58.196/api/v1";
 
 export const getFormularies = async () => {
   return await axios.get(`${baseUrl}formulary/`).then((res) => res.data);
