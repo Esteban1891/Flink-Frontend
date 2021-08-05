@@ -17,7 +17,7 @@ It is necessary not to have port **3000** in use
 ## Demo
 
 link to demo
-> frontend http://143.198.58.196/
+> frontend http://143.198.58.196:3000/
 
 
 
