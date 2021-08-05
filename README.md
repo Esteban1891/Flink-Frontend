@@ -1,7 +1,59 @@
-# Getting Started with Create React App
+
+![image](https://user-images.githubusercontent.com/60367971/127914569-33b1a64b-2fc5-4085-8849-cbbdc85f41fa.png)
+    
+# Flink -  Frontend
+
+
+## Tech Stack
+
+**Server:** React, Chart.js
+
+## Warning -
+
+It is necessary not to have port **3000** in use
+
+  
+  
+## Demo
+
+link to demo
+> frontend http://143.198.58.196/
+
+
+
+  
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/60367971/128272870-a1ff1052-7050-4ecc-996c-4c9a93c00b27.png)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Esteban1891/Flink-Frontend.git
+```
+
+Go to the project directory
+
+```bash
+  cd Flink-Frontend
+```
+
+Install Docker
+
+Start the server
+
+```bash
+docker-compose up --build  --remove-orphans
+```
+
+
+
+# Create React App local whithout docker
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+ 
 - first run npm install after..
 
 ## Available Scripts
@@ -70,5 +122,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Frontend-CRUD-Flink
-# Flink-Frontend
+
+
+  
+## Authors
+
+- [@Esteban1891](https://www.github.com/Esteban1891)
+
+  
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+  
+## Used By
+
+This project is used by the following companies:
+
+- Flink
+
+  
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://estebandelahoz.me/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/estebandelahoz/)
+
+  
